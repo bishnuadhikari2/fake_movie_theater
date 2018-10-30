@@ -6,23 +6,15 @@
     <title>Love Birds</title>
 </head>
 <body>
-<nav>
-<ul>
-    <li><a href="index.html">About Page</a></li>
-    <li><a href="space_ghosts.html">Space Ghosts</a></li>
-    <li><a href="comedy_movie.html">Comedy Movie</a></li>
-    <li><a href="chef_dog.html">Chef Dog</a></li>
-    <li><a href="action_movie.html">Action Movie</a></li>
-    <li><a href="love_birds.html">Love Birds</a></li>
-</ul>
-</nav>
+        <?php include '../resources/navigation.php'; ?>   
+
     <h1>Love Birds</h1>
     <header><u>Description</u></header>
     <p>Cole and Lesley are complete opposites. 
     One is a dog lover and the other is a cat enthusiast. 
     He enjoys sports, but she despises the outdoors. 
     No one would have guessed that they would fall madly in love when their paths cross.</p>
-    <img src="love_birds.png" alt="Love Birds" />
+    <img src="img/love_birds.png" alt="Love Birds" />
 <h2>More Information</h2>
 <p>Rating&colon; PG-13</p>
 <p>Duration&colon; 1&colon;45</p>
@@ -64,8 +56,6 @@
       </tr>
      </tfoot>
         </table>
-<footer>
-&copy; Simpson College 2018 | Contact Us (515) 247-8992
-</footer>
+<?php include '../resources/footer.php'; ?>   
 </body>
 </html>

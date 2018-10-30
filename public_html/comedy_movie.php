@@ -6,18 +6,11 @@
 <title>Comedy Movie</title>
 </head>
 <body>
-<nav>
-<ul>
-    <li><a href="index.html">About Page</a></li>
-    <li><a href="space_ghosts.html">Space Ghosts</a></li>
-    <li><a href="comedy_movie.html">Comedy Movie</a></li>
-    <li><a href="chef_dog.html">Chef Dog</a></li>
-    <li><a href="action_movie.html">Action Movie</a></li>
-    <li><a href="love_birds.html">Love Birds</a></li>
-</ul>
-</nav>
+
+<?php include '../resources/navigation.php'; ?>  
+
 <h1>Tide Pod Man</h1>
-<img src="comedy_movie.png" alt="Tide Pod Man" />
+<img src="img/comedy_movie.png" alt="Tide Pod Man" />
 <p>Paul Nerf (Ryan Reynolds) was just an ordinary guy... until he swallowed a Tide Pod. Discovering endless powers and abilities, Paul is being targeted by the worlds scariest assassins</p><p>and can only be saved by eating more Tide Pods to strengthen his abilites. The problem is, with every Pod he eats, the weaker his immune system becomes. Will Paul</p><p>find the cure to his Tide Pod powers, or will he have to become the most unstoppable man alive at a life threatening level?</p>
 <h2>More Info</h2>
 <p>Director&colon; Adam Sandler</p>
@@ -85,16 +78,7 @@
         </tr>
     </tbody>
 </table>
-<nav>
-<p><a href="index.html">About Page</a></p>
-<p><a href="horror_movie.html">Space Ghosts</a></p>
-<p><a href="comedy_movie.html">Comedy Movie</a></p>
-<p><a href="animated_movie.html">Chef Dog</a></p>
-<p><a href="action_movie.html">Action Movie</a></p>
-<p><a href="romance_movie.html">Love Birds</a></p>
-</nav>
-<footer>
-&copy; Simpson College 2018 | Contact Us (515) 247-8992
-</footer>
+
+<?php include '../resources/footer.php'; ?>   
 </body>
 </html>

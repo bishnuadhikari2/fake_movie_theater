@@ -6,23 +6,17 @@
     <title>Chef Dog</title>
 </head>
 <body>
-<nav>
-<ul>
-    <li><a href="index.html">About Page</a></li>
-    <li><a href="space_ghosts.html">Space Ghosts</a></li>
-    <li><a href="comedy_movie.html">Comedy Movie</a></li>
-    <li><a href="chef_dog.html">Chef Dog</a></li>
-    <li><a href="action_movie.html">Action Movie</a></li>
-    <li><a href="love_birds.html">Love Birds</a></li>
-</ul>
-</nav>
+
+        <?php include '../resources/navigation.php'; ?>   
+
     <h1>Chef Dog</h1>
     <header><u>Description</u></header>
     <p>This animated film by Mooniverse Studios tells the <em>tail</em> 
     of a dog who dreams of becoming a chef just like his owner. 
     He embarks on a <em>ruff</em> adventure of friendship, failure, and passion. 
     Gather your friends and family to experience the wholesome story of Chef Dog today&excl;</p>
-    <img src="chef_dog.png" alt="Chef Dog" />
+    
+    <img src="img/chef_dog.png" alt="Chef Dog" />
 <h2>More Information</h2>
 <p>Rating&colon; PG</p>
 <p>Duration&colon; 1&colon;15</p>
@@ -64,8 +58,7 @@
       </tr>
      </tfoot>
         </table>
-<footer>
-    &copy; Simpson College 2018 | Contact Us (515) 247-8992
-</footer>
+
+    <?php include '../resources/footer.php'; ?>   
 </body>
 </html>
